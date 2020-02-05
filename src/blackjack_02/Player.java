@@ -22,10 +22,6 @@ public class Player {
         name = "Player " + playerNum;
     }
     
-    public Player(){
-        
-    }
-    
     public Hand getMyHand(){
         return myHand;
     }

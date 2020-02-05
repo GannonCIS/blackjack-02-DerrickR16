@@ -21,7 +21,7 @@ public class BlackJack_02 {
             Card temp = myDeck.dealCard();
             myHand.addCard(temp);
             myHand.printHand();
-            System.out.println("Score: " + myHand.getScore());
+            System.out.println("Score: " + myHand.getScore() + "\n");
         }
     }
     
