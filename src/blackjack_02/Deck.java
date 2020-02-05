@@ -43,8 +43,13 @@ public class Deck {
     }
     
     public Card dealCard(){
+        if(nextCard > 51){
+            shuffle();
+            nextCard = 0;
+            
+        }
         
-        return null; //Don't forgeet to change this!!!!!!!!!!!!!!!!!!!!!
+        return myCards[++nextCard]; 
     }
     
     public void printDeck(){
